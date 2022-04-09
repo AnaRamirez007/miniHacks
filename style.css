@@ -6,11 +6,20 @@ body{
     background-attachment: fixed;
 } 
 p { text-align: center;
-    color: rgb(95, 95, 235); 
+    color: rgb(68, 68, 83); 
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } 
 h1{ 
     text-align: center;
-    color: rgb(198, 115, 115); }
+    color: rgb(198, 115, 115); 
+    top: 50%;
+    position: relative;
+    transform: translateY(60%);
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
 
 .container{
         width: 900px;
@@ -20,18 +29,13 @@ h1{
         background-color: rgba(245, 240, 248, 0.746);
         top: 50%
     }
-.container h1{
-    text-align: center;
-    top: 50%;
-    position: relative;
-    transform: translateY(60%);
-}
+
 .container2{
         text-align: center;
         width: 900px;
         height: 300px;
         margin: auto;
-        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: rgba(245, 240, 248, 0.746);
         
     }
@@ -39,6 +43,8 @@ h1{
 .column {
     float: left;
     width: 33.33%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(68, 68, 83)
   }
   
   /* Clear floats after the columns */
