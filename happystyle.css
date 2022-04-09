@@ -1,0 +1,21 @@
+*{
+    padding : 0;
+    margin:0;
+}
+
+.happy{
+    min-height : 100vh;
+    width:100%;
+    background-image: linear-gradient(rgb(204, 149, 233),rgb(155, 175, 248));
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+
+.h{
+    background-color :rgb(251, 244, 152);
+    padding : 0 5rem;
+}
+
