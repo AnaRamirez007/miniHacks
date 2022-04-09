@@ -1,6 +1,60 @@
-body{ background-color: rgb(250, 224, 224);} 
-p { color: rgb(95, 95, 235); } 
-h1{ color: rgb(198, 115, 115); }
+
+body{ 
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/9b/55/ff/9b55ff0666aeed223caa0b01a7f94852.gif);
+    background-size: cover;
+} 
+p { text-align: center;
+    color: rgb(95, 95, 235); 
+} 
+h1{ 
+    text-align: center;
+    color: rgb(198, 115, 115); }
+
+.container{
+        text-align: center;
+        width: 900px;
+        height: 150px;
+        margin: auto;
+        margin-top: auto;
+        background-color: rgba(245, 240, 248, 0.746);
+        
+    }
+.container2{
+        text-align: center;
+        width: 900px;
+        height: 300px;
+        margin: auto;
+        background-color: rgba(245, 240, 248, 0.746);
+        
+    }
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+/*div.column{
+    text-align: center;
+    background-color: lightblue;
+    opacity: .6;
+    border: 1px solid rgb(243, 136, 136);
+}
+*/
+
 
 .happy{
     background-color :rgb(251, 244, 152);
