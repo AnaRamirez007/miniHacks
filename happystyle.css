@@ -1,0 +1,23 @@
+*{
+    padding : 0;
+    margin-left:10px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    min-height:100vh;
+    background: linear-gradient(rgb(204, 149, 233),rgb(155, 175, 248));
+}
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 30px 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
