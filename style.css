@@ -1,3 +1,8 @@
 body{ background-color: rgb(250, 224, 224);} 
 p { color: rgb(95, 95, 235); } 
 h1{ color: rgb(198, 115, 115); }
+
+.happy{
+    background-color :rgb(251, 244, 152);
+    padding : 0 5rem;
+}
