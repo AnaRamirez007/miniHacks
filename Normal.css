@@ -3,3 +3,75 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+h1{
+    text-align: center;
+    top: 27%;
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(127, 161, 255)
+    
+}
+p{
+    text-align: center;
+    top: 20%;
+    transform: translateY(100%);
+    position: relative;
+}
+.container{
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(245, 240, 248, 0.746);
+    top: 50%
+}
+
+.container2{
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(245, 240, 248, 0.746);
+    
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transform: translateY(50%);
+}
+
+.button-74:hover {
+  background-color: #fff;
+  transform: translateY(50%);
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+  transform: translateY(50%);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+    transform: translateY(50%);
+  }
+}
