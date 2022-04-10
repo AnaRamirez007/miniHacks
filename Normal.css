@@ -14,7 +14,7 @@ h1{
 }
 h2{
     text-align: left;
-    
+
 }
 p{
     text-align: center;
@@ -60,6 +60,18 @@ p{
     width: 100%;
     hanging-punctuation: 100px;
     background-color: #b3d6fa8a;
+}
+
+.footer-text-left {
+  font-size:25px;
+  padding-left:40px;
+  float:left;
+  word-spacing:20px;
+}
+
+a.menu:hover {
+  background-color:rgb(255, 255, 255);
+  font-size:20px;
 }
 
 /* CSS */
