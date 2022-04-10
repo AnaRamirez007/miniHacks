@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Happy! </title>
+        <title>  Happy! </title>
         <link rel = "stylesheet" href= "happystyle.css"/>
     </head>
     <body>
         <header>
             <br>
             <br>
-            <h1 style="color : white;">HAPPY</h1>
+            <h1 style="color : white;">We are glad to know you are happy...</h1>
         </header>
     
 
     <section>
-        <h2  id="text"> <span> Life's good</span>
-        <br> have a great day!</h2>
+        <h2  id="text"> <span> Scroll down to see  </span>
+        <br> a pretty sunset!</h2>
 
         <img src="fotos/clouds.png" width="1400" height="600">
-        
     </section>
-
+    
     <img src="fotos/grass.png" width="1550" height="300">
+    
     <div class="sec">
-        <p> HHSSHDVJBFHVJVJVBFKJV]
-            BFHVBFDKBKJVBKF
-            JBFVHBFHB
+        <p> 
+            <img src="http://24.media.tumblr.com/61f12406b4f0f01e4354e182a0533b36/tumblr_mh1gdoIRjl1rgpyeqo1_500.gif" width="300" height="300" id="rainbow">
+            <a href="2NormalCat.html" id="button"> Wanna see Cute cats? Click here!</a>
         </p>
     </div>
+    <script>
         
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            text.style.top =  40+ value * -0.3+'%';
+            rainbow.style.right= 40 - value *-1.5 +'px';
+            rainbow.style.left=value*2+'px';
+        })
+    </script>
 
     
 </body>
