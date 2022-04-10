@@ -1,0 +1,40 @@
+body{ 
+    text-align: center;
+    background-image: url(https://64.media.tumblr.com/e80df73509535dab46c51f314b360f17/9229d2bcfa04e2cb-af/s540x810/540ca35722bdca3ecfc42186f99046a1fff50fbc.gifv);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+p { text-align: center;
+    color: #624d88; 
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+h1{ 
+    text-align: center;
+    color: #71608f; 
+    top: 50%;
+    position: relative;
+    transform: translateY(60%);
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.container{
+        width: 900px;
+        height: 100px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgba(245, 240, 248, 0.746);
+        top: 50%
+    }
+
+.container2{
+        text-align: center;
+        width: 900px;
+        height: 600px;
+        margin: auto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(245, 240, 248, 0.746);
+        
+    }
