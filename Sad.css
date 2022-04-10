@@ -21,14 +21,13 @@ h1{
 }
 
 .container{
-        width: 500px;
-        height: 200px;
+        width: 220px;
+        height: 38px;
         margin: auto;
         margin-top: 20px;
-        background-color: #f8f0f3;
+        background-color: rgba(245, 240, 248, 0.746);
         top: 50%
-        
-    }
+}
 
 .container2{
         text-align: center;
