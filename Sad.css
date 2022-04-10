@@ -1,0 +1,80 @@
+body{ 
+    text-align: center;
+    background-image: url(https://data.whicdn.com/images/355181945/original.gif);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+p { text-align: center;
+    color: rgb(109, 58, 163); 
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+h1{ 
+    text-align: center;
+    color: rgb(198, 115, 115); 
+    top: 50%;
+    position: relative;
+    transform: translateY(60%);
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.container{
+        width: 500px;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: #f8f0f3;
+        top: 50%
+        
+    }
+
+.container2{
+        text-align: center;
+        width: 890px;
+        height: 270px;
+        margin: auto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(245, 240, 248, 0.746);
+        
+    }
+
+    /* CSS */
+    .button-74 {
+      background-color: #f1ddc8;
+      border: 2px solid 	#084e27;
+      border-radius: 30px;
+      box-shadow: 	#084e27 4px 4px 0 0;
+      color: 	#084e27;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 0 18px;
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-74:hover {
+      background-color: #fff;
+    }
+    
+    .button-74:active {
+      box-shadow: #422800 2px 2px 0 0;
+      transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+      .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+      }
+    }
+
+
+    /* just so it could be pretty /*
